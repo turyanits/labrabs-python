@@ -1,11 +1,13 @@
 from math import cos
 # Завдання 1. Дано натуральне число n і дійсне число x. Обчислити cos x + cos^2 x + ... cos^n x
 n = 1
-x = int(input('x:'))
-result = cos(x) + cos(x)**2 + ... + cos(x)**n
-for n in result:
-    n = n+1
-print(result)
+x = int(input("x:"))
+sum = 0
+for i in range(n,x):
+    n+=1
+    sum += cos(x)**n
+   
+print (sum)
 
 # Завдання 2. Дано два натуральних числа x і y. Знайти число, яке містить найбільшу кількість нулів.
 """x = input('Перше число:')
