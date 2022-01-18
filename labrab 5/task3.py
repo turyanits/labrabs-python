@@ -1,6 +1,5 @@
 import math
-
-x = float(input("Ведіть х , -pi < x < pi: "))
+x = float(input("Ведіть х , -p < x < p: "))
 eps = float(input("Введіть точність eps= "))
 sum += 0
 i = 1
